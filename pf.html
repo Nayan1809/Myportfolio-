@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nayan Patil Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Nayan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="dark-toggle">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <img src="img_nyn.jpeg" alt="Nayan" class="profile-img" />
+    <div class="hero-text">
+      <h1>Hi, I'm Nayan</h1>
+      <p class="title">AI-Driven Software Developer | Frontend Designer | Innovator</p>
+      <p class="intro">A passionate developer who transforms ideas into real, impactful solutions. I love creating modern web applications, experimenting with AI, and building UI that speaks.</p>
+      <blockquote>“Code is poetry, and I'm writing my story one pixel at a time.”</blockquote>
+      <a href="#about" class="scroll-arrow">⬇ Scroll Down</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I enjoy crafting intelligent and beautiful digital experiences. My journey combines creativity, analytical thinking, and AI-driven technologies to create tools that make life easier and more intuitive.</p>
+    <div class="fun-facts">
+      <div class="card">🎨 I love UI/UX & painting</div>
+      <div class="card">🤖 Curious about AI & NLP</div>
+      <div class="card">📚 Constant learner</div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML/CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">AI/ML</div>
+      <div class="skill-card">UI/UX Design</div>
+      <div class="skill-card">Git & GitHub</div>
+      <div class="skill-card">Java</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project Thumbnail" />
+        <h3>Hridayam</h3>
+        <p>An AI-powered portable ECG system for real-time cardiac monitoring using CNN.</p>
+        <p class="tags">Python · OpenCV · CNN</p>
+        <div class="links">
+          <a href="#" class="btn">Live</a>
+          <a href="#" class="btn-outline">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project_2.jpeg" alt="Traffic Sign Analyser Thumbnail" />
+        <h3>Traffic Sign Analyser</h3>
+        <p>An AI-driven model designed for vehicles to analyze road traffic signs and help maintain appropriate speed using CNN.</p>
+        <p class="tags">Python · TensorFlow · OpenCV · CNN</p>
+        <div class="links">
+          <a href="#" class="btn">Live</a>
+          <a href="#" class="btn-outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-icons">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="mailto:youremail@example.com">Email</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Nayan Sambhaji Patil. All rights reserved.</p>
+    <a href="#home" class="back-to-top">↑ Back to top</a>
+  </footer>
+
+  <script>
+    document.querySelector('.dark-toggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
